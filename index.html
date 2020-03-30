@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h3>Events</h3>
+      <button onclick="toggleModal()">Add event</button>
+    </header>
+    <div id="allEventGroups" class="allEventGroups">
+      
+    </div>
+
+    <section id="modal">
+      <input type="text" id="title" />
+      <input type="text" id="place" />
+      <input type="date" id="time" />
+      <select id="type">
+        <option value="tech">Technology</option>
+        <option value="birthday">Birthday</option>
+        <option value="wedding">Wedding</option>
+      </select>
+      <textarea id="description" cols="30" rows="10"></textarea>
+      <button onclick="addEvent()">Add</button>
+    </section>
+    <footer></footer>
+  </body>
+</html>

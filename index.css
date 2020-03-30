@@ -1,0 +1,94 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: none;
+  float: left;
+  width: 100%;
+}
+header {
+  height: auto;
+  float: left;
+  width: 97%;
+  padding: 10px;
+  margin: 10px;
+}
+
+header button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  height: auto;
+  float: left;
+  width: 100%;
+  margin: 20px;
+}
+
+.allEventGroups {
+  float: left;
+  width: 100%;
+}
+
+.eventsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.eventGroup {
+  background-color: #f9f9f9;
+  border: 2px solid #e8e8e8;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.event {
+  background-color: #fff;
+  margin: 20px;
+  padding: 20px;
+  width: 15%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#modal {
+  background-color: #e4e4e4;
+  width: 40%;
+  border: 2px solid #c1c1c1;
+  position: absolute;
+  top: 20vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#modal input[type=text], #modal select, #modal input[type=date], #modal textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#modal button {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#modal button:hover {
+  background-color: #45a049;
+}
